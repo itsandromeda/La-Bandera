@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section {
+    width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-family: sans-serif;
+    margin: 16px 0;
+}
+
+section div {
+    width: 600px;
+    height: 152px;
+}
+
+.border {    
+    border: 1px solid #000;
+}
+
+.block {
+    background-color: pink;
+    width: 150px;
+    height: 150px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.left {
+    float: left;
+}
