@@ -7,13 +7,12 @@ body {
 }
 
 section {
-    width: 600px;
+    width: 1000px;
     margin: auto;
 }
 
-h1 {
-    font-family: sans-serif;
-    margin: 16px 0;
+.big-box {
+    width: 1000px;
 }
 
 .long-box {
@@ -21,11 +20,19 @@ h1 {
     height: 152px;
 }
 
-.border {    
-    border: 1px solid #000;
+h1 {
+    font-family: sans-serif;
+    margin: 16px 0;
 }
 
 .block {
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+}
+
+.smaller-block {
+    background-color: pink;
     width: 150px;
     height: 150px;
 }
@@ -42,6 +49,14 @@ h1 {
     background-color: red;
 }
 
+.border {
+    border: 1px solid #000;
+}
+
 .left {
     float: left;
+}
+
+.right {
+    float: right;
 }
