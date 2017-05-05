@@ -16,7 +16,7 @@ h1 {
     margin: 16px 0;
 }
 
-section div {
+.long-box {
     width: 600px;
     height: 152px;
 }
